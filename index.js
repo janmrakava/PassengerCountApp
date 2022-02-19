@@ -1,11 +1,11 @@
-//document.getElementById("count-el").innerText = 5;
+let count = 0;
+let countEl = document.getElementById("count-el");
 
-//let firstBatch = 5;
-//let secondBatch = 7;
-//let count = firstBatch + sec;
-//console.log(count);
+console.log(countEl);
 
-let humanDogRatio = 7;
-let myAge = 24;
-let myDogAge = humanDogRatio * myAge;
-console.log(myDogAge);
+
+function increment(){
+  count+=1;
+  countEl.innerText = count;
+  console.log(count);
+}
